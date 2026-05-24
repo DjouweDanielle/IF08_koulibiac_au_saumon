@@ -1,1 +1,58 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
 
+/* HERO */
+
+main img {
+    transition: transform 0.3s ease;
+}
+
+main img:hover {
+    transform: scale(1.02);
+}
+
+/* DIVIDER */
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .08);
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, .1);
+}
+
+/* LIST GROUP */
+
+.list-group {
+    max-width: 900px;
+    margin: 4rem auto;
+}
+
+.list-group-item {
+    border: none;
+    border-radius: 12px !important;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* INGREDIENTS */
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* NAVBAR */
+
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 5rem;
+}
